@@ -1,0 +1,25 @@
+{
+   "name": "task-portaone",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "start": "node ./server.js",
+      "start:dev": "nodemon ./server.js"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/t0xick1d/task-PortaOne.git"
+   },
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/t0xick1d/task-PortaOne/issues"
+   },
+   "homepage": "https://github.com/t0xick1d/task-PortaOne#readme",
+   "dependencies": {
+      "express": "^4.18.2",
+      "nodemon": "^3.0.1",
+      "unbzip2-stream": "^1.4.3"
+   }
+}
